@@ -1,1 +1,23 @@
 *{box-sizing: border-box;}
+
+a{display:inline; text-align: left; text-decoration: none;}
+
+body, html{width:100%}
+
+.pag_h1{
+    width: 100%;
+    text-align: center;
+}
+
+.pag_h2{
+    width: 100%;
+    text-align: center;
+}
+
+.pag_p{
+    border: 1px solid red;
+}
+
+.index_header{
+    
+}
