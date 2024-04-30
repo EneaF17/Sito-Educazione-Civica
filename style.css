@@ -1,1 +1,5 @@
 *{box-sizing: border-box;}
+
+a{display: inline; text-decoration: none;}
+
+html, body{position:relative; width: 100%;}
