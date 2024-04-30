@@ -4,6 +4,28 @@ a{display:inline; text-align: left; text-decoration: none;}
 
 body, html{width:100%; height: 100%; margin: 0;}
 
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+/* CLASSI COMODE PER DIVERSI SCOPI */
+
+.sizeImg{
+    width: 96%;
+    height: 96%;
+    padding: 2%;
+}
+
+.sizeImg__Full{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
 /* CSS PER INDEX */
 
 header{
@@ -30,8 +52,14 @@ header{
 }
 
 .header__box__contenuti h2{
-    padding: 5px;
     color: white;
+}
+
+.header__box__contenuti__Follow{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__box__contenuti__search{
@@ -48,18 +76,88 @@ header{
     background-color: white;
 }
 
-.sizeImg{
-    width: 96%;
-    height: 96%;
-    padding: 2%;
-}
-
 .header__img{
-    /* width: auto; */
     height: 76%;
     align-self: center;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+h1{
+    text-align: center;
+}
+
+.cartina__box{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    border: 1px solid red;
+    position: relative;
+}
+
+.cartina__divisori{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    z-index: 10;
+    display: flex;
+}
+
+.link__continente__America{
+    position: absolute;
+    top: 13%;
+    width: 42%;
+    height: 75%;
+    border: 1px solid red;
+}
+
+.link__continente__Europa{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    width: 22%;
+    height: 31%;
+    border: 1px solid red;
+}
+
+.link__continente__Africa{
+    position: absolute;
+    top: 46%;
+    left: 42%;
+    width: 22%;
+    height: 31%;
+    border: 1px solid red;
+}
+
+.link__continente__Asia{
+    position: absolute;
+    top: 15%;
+    left: 64%;
+    width: 35%;
+    height: 51%;
+    border: 1px solid red;
+}
+
+.link__continente__Oceania{
+    position: absolute;
+    top: 66%;
+    left: 74%;
+    width: 22%;
+    height: 18%;
+    border: 1px solid red;
+}
+
+.indice__index{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.ul__indice__index{
+    padding: 5px;
 }
 
 footer{
@@ -68,9 +166,6 @@ footer{
     flex-direction: row;
     background-color: rgb(0, 136, 255);
 }
-
-
-
 
 
 
