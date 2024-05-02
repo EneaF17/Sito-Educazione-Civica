@@ -43,11 +43,19 @@ h3 {font-size:x-large;}
 header{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     background-color: rgb(0, 136, 255);
 }
 
+
+.header__main{
+    position: relative;
+    width:35%;
+    border: 1px solid red;
+}
+
+
 .header__box__titolo{
+    position: relative;
     width: 40%;
     margin-left: 2%;
     display: flex;
@@ -55,11 +63,13 @@ header{
 
 .header__box__titolo{
     color: white;
+    position: relative;
+    width: 50%;
 }
 
 .header__box__contenuti{
-    width: 50%;
-    margin-left: 2%;
+    border: 1px solid red;
+    width: 60%;
     display: flex;
 }
 
@@ -75,21 +85,25 @@ header{
 }
 
 .header__box__contenuti__search{
-    width: 50%;
+    border: 1px solid red;
+    height: 100%;
+    width: 60%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
 
 }
 .header__box__contenuti__search__img__box{
-    width: 20%;
+    width: auto;
     height: 60%;
     border-radius: 100%;
     background-color: white;
 }
 
+
 .header__img{
-    height: 76%;
+    border: 1px solid red;
+    height: 80%;
     align-self: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -131,7 +145,15 @@ main{padding-top: 2%;}
     position: absolute;
     top: 13%;
     width: 42%;
-    height: 75%;
+    height: 43%;
+}
+
+.link__continente__SudAmerica{
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 56%;
+    width: 42%;
+    height: 30%;
 }
 
 .link__continente__Europa{
@@ -194,10 +216,15 @@ main{padding-top: 2%;}
     border: 1px solid black;
     background-color: antiquewhite;
     border-radius: 10px;
-    width: 15%;
-    margin-left: 1.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
     margin-right: 1.5%;
     box-shadow: 5px 5px 20px 4px  black ;
+
 }
 
 
@@ -211,7 +238,7 @@ main{padding-top: 2%;}
 .indice__index__elemento__box{
     /* border: 1px solid blue; */
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-self: center;
     padding: 5px;
@@ -239,6 +266,17 @@ main{padding-top: 2%;}
     color: black;
     justify-self: center;
     background-image: url(Immagini/Bandiera_America.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.indice__index__elemento__link__SudAmerica{
+    width: 60%;
+    height: 100%;
+    color: black;
+    justify-self: center;
+    background-image: url(Immagini/Bandiera_SudAmerica.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
