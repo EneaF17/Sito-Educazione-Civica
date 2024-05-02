@@ -224,12 +224,14 @@ main{padding-top: 2%;}
     margin-left: 2%;
     margin-right: 2%;
     box-shadow: 5px 5px 20px 4px  black ;
+    transition: .5s;
 
 }
 
 
 .indice__index__link:hover{
     transform: scale(1.2);
+    box-shadow: 0 0 0 0 white;
 }
 
 
