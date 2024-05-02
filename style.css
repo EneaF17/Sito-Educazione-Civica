@@ -16,6 +16,10 @@ ul{
 }
 
 h3 {font-size:x-large;}
+
+
+
+
 /* CLASSI COMODE PER DIVERSI SCOPI */
 
 .sizeImg{
@@ -41,6 +45,7 @@ h3 {font-size:x-large;}
 /* CSS PER INDEX */
 
 header{
+    height: 20vh;
     display: flex;
     justify-content: space-between;
     background-color: rgb(0, 136, 255);
@@ -50,22 +55,22 @@ header{
 .header__main{
     position: relative;
     width:35%;
+    display: flex;
+    align-items: center;
     border: 1px solid red;
+
 }
 
 
 .header__box__titolo{
     position: relative;
-    width: 40%;
-    margin-left: 2%;
     display: flex;
-}
-
-.header__box__titolo{
     color: white;
     position: relative;
-    width: 50%;
+    width: 100%;
+    border: 1px solid yellow
 }
+
 
 .header__box__contenuti{
     border: 1px solid red;
@@ -90,7 +95,7 @@ header{
     width: 60%;
     display: flex;
     align-items:center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 .header__box__contenuti__search__img__box{
@@ -116,6 +121,9 @@ h1{
 }
 
 main{padding-top: 2%;}
+
+
+/* CARTINA */
 
 .cartina__box{
     /* border: 1px solid red; */
@@ -321,6 +329,11 @@ main{padding-top: 2%;}
 .riquadro-testo{
     padding: 5% 10% 0 10%;
 }
+
+
+
+
+/* FOOTER */
 
 footer{
     display: flex;
