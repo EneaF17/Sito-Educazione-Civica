@@ -37,11 +37,19 @@ h3 {font-size:x-large;}
 header{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     background-color: rgb(0, 136, 255);
 }
 
+
+.header__main{
+    position: relative;
+    width:35%;
+    border: 1px solid red;
+}
+
+
 .header__box__titolo{
+    position: relative;
     width: 40%;
     margin-left: 2%;
     display: flex;
@@ -49,11 +57,13 @@ header{
 
 .header__box__titolo{
     color: white;
+    position: relative;
+    width: 50%;
 }
 
 .header__box__contenuti{
-    width: 50%;
-    margin-left: 2%;
+    border: 1px solid red;
+    width: 60%;
     display: flex;
 }
 
@@ -69,21 +79,25 @@ header{
 }
 
 .header__box__contenuti__search{
-    width: 50%;
+    border: 1px solid red;
+    height: 100%;
+    width: 60%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
 
 }
 .header__box__contenuti__search__img__box{
-    width: 20%;
+    width: auto;
     height: 60%;
     border-radius: 100%;
     background-color: white;
 }
 
+
 .header__img{
-    height: 76%;
+    border: 1px solid red;
+    height: 80%;
     align-self: center;
     margin-left: 5%;
     margin-right: 5%;
