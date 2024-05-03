@@ -41,6 +41,8 @@ h3 {font-size:x-large;}
     opacity: 90%;
 }
 
+.Wh{color:white}
+
 .op100{opacity: 100%;}
 
 /* CSS PER INDEX */
@@ -358,6 +360,29 @@ footer{
     text-align: center;
 }
 
-.pag_p{
-    border: 1px solid red;
+
+.MainBox{
+    /* border: 1px solid red; */
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.sideNav{
+    width: 15%;
+    background-color: rgb(0, 136, 255);
+}
+
+.sideNav__El__Box{
+    width: 80%;
+    margin-left: 10%;
+    background-color: gainsboro;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.ContentBox{
+    /* border: 1px solid blue; */
+    width: 85%;
 }
