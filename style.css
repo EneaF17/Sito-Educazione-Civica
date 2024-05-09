@@ -65,6 +65,8 @@ p{
 
 .op100{opacity: 100%;}
 
+.pd5px{ padding: 5px;}
+
 /* CSS PER INDEX */
 
 header{
@@ -421,6 +423,7 @@ footer{
     justify-content: center;
     align-items: center
 }
+
 
 
 
