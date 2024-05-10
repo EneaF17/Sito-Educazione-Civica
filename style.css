@@ -433,3 +433,12 @@ footer{
     width: 85%;
     padding: 0 3%;
 }
+
+
+.boxImg{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
