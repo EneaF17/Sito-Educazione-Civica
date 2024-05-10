@@ -5,11 +5,6 @@ a{display:inline; text-align: left; text-decoration: none;}
 body, html{width:100%; margin: 0; height: 100vh;}
 
 
-ul{
-    list-style: none;
-    padding: 0;
-}
-
 a{display: block;}
 
 
@@ -37,14 +32,6 @@ p{
 }
 
 
-.fl{
-    float: left;
-    padding-right: 10px;
-}
-.fr{
-    float: right;
-    padding-left: 10px;
-}
 
 
 tr{
@@ -83,6 +70,17 @@ tr{
 
 .ctr{text-align: center;}
 
+.fl{
+    float: left;
+    padding-right: 10px;
+}
+
+.fr{
+    float: right;
+    padding-left: 10px;
+}
+
+.clb{clear: both;}
 /* CSS PER INDEX */
 
 header{
@@ -410,11 +408,19 @@ footer{
 }
 
 .sideNav{
+    top: 0;
     padding-top: 2%;
     border-right: 3px black solid;
     width: 15%;
     background-color: rgb(0, 136, 255);
     /* border: 1px solid red; */
+}
+
+.box__sideNav{
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0;
 }
 
 .sideNav h3{
@@ -443,10 +449,6 @@ footer{
     align-items: center
 }
 
-
-
-
-
 .ContentBox{
     /* border: 1px solid blue; */
     width: 85%;
@@ -462,6 +464,10 @@ footer{
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+
+.boxImg40{
+    width: 40%;
 }
 
 .tabella{
