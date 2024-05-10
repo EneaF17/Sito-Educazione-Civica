@@ -67,6 +67,8 @@ p{
 
 .pd5px{ padding: 5px;}
 
+.ctr{text-align: center;}
+
 /* CSS PER INDEX */
 
 header{
@@ -441,4 +443,17 @@ footer{
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+
+.tabella{
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabella th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
 }
