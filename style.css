@@ -347,12 +347,12 @@ h1{
     text-align: center;
 }
 
-.indice__index__elemento__link__Australia{
+.indice__index__elemento__link__Oceania{
     width: 60%;
     height: 100%;
     color: black;
     justify-self: center;
-    background-image: url(Immagini/Bandiera_Australia.png);
+    background-image: url(Immagini/Bandiera_Oceania.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
