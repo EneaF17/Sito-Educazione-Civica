@@ -459,6 +459,13 @@ footer{
 
 }
 
+.sideNav__El__Box p{
+    transition: .5s;
+}
+.sideNav__El__Box:hover p{
+    font-weight: bold;
+}
+
 .ContentBox{
     /* border: 1px solid blue; */
     width: 85%;
