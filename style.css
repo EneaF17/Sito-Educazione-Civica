@@ -8,7 +8,7 @@ body, html{width:100%; margin: 0; height: 100vh;}
 a{display: block;}
 
 
-h3 {font-size:x-large;}
+/* h3 {font-size:x-large;} */
 h4 {text-align: center;}
 
 .freeman-regular {
@@ -23,7 +23,7 @@ h1, h2, h3, h4{
     font-style: normal;
 }
 
-p{
+p, li{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -61,6 +61,8 @@ tr{
     background-color: white;
     opacity: 90%;
 }
+
+.BCY{background-color: yellow;}
 
 .Wh{color:white}
 
@@ -485,6 +487,12 @@ footer{
 
 .boxImg40{
     width: 40%;
+}
+.boxImg80{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .tabella{
